@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(225, 250, 196);
+        }
+
+        .calculate {
+            background-color: rgb(119, 241, 119);
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="/" method="post">
+        <div class="calculator-container">
+            <h1>BMI CALCULATOR</h1>
+            <label><b>Height in Centimeters:</b></label>
+            <input class="height-input-field" type="text" name="height" id="height"><br>
+            <br>
+            <label><b>Weight in Kilograms :</b></label>
+            <input class="weight-input-field" type="text" name="weight" id="weight"><br>
+            <br>
+            <button class="calculate" id="button"> Calculate</button>
+        </div>
+        <h3 class="result" id="result"></h3>
+        <p class="result-statement" id="result-statement"></p>
+
+    </form>
+
+</body>
+
+</html>
